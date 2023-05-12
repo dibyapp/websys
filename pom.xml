@@ -141,7 +141,6 @@
 					<encoding>UTF-8</encoding>
 					<!-- to prevent compile errors because of missing com.sun.image.codec.jpeg.* classes in Java 1.7 -->
 					<compilerArgument>-XDignore.symbol.file=true</compilerArgument>
-					<includeSystemScope>true</includeSystemScope>
 				</configuration>
 			</plugin>
 		</plugins>
