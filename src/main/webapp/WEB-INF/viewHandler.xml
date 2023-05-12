@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<viewHandlerRegistry>
+
+  <!-- shows log files colorized by log message severity -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.LogViewHandler</class>
+    <filePatternList>
+      <filePattern>*.log</filePattern>
+    </filePatternList>
+    <parameterList>
+      <parameter>
+        <paramName>colorConfig</paramName>
+        <paramValue>' DEBUG '=navy,' INFO '=blue,' WARN '=maroon,' ERROR '=red,' FATAL '=pink</paramValue>
+      </parameter>
+      <!--
+      <parameter>
+        <paramName>charEncoding</paramName>
+        <paramValue>UTF-8</paramValue>
+        <paramValue>ISO-8859-1</paramValue>
+      </parameter>
+      -->
+    </parameterList>
+  </viewHandler>
+
+  <!-- shows Java source code syntax-colorized and pretty printed -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.JavaSourceViewHandler</class>
+    <filePatternList>
+      <filePattern>*.java</filePattern>
+    </filePatternList>
+  </viewHandler>
+  
+  <!-- shows the content of a unix tar archive -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.TarViewHandler</class>
+    <filePatternList>
+      <filePattern>*.tar</filePattern>
+    </filePatternList>
+  </viewHandler>
+
+  <!-- shows JSON data prettyprinted -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.JsonViewHandler</class>
+    <filePatternList>
+      <filePattern>*.json</filePattern>
+    </filePatternList>
+  </viewHandler>
+  
+  <!-- shows content of java keystore files -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.KeyStoreViewHandler</class>
+    <filePatternList>
+      <filePattern>*.jks</filePattern>
+      <filePattern>*.keystore</filePattern>
+    </filePatternList>
+  </viewHandler>
+
+  <!-- shows content of certificate files -->
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.CertificateFileViewHandler</class>
+    <filePatternList>
+      <filePattern>*.crt</filePattern>
+      <filePattern>*.cert</filePattern>
+      <filePattern>*.pem</filePattern>
+    </filePatternList>
+  </viewHandler>
+
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.FontFileViewHandler</class>
+    <filePatternList>
+      <filePattern>*.woff</filePattern>
+      <filePattern>*.ttf</filePattern>
+      <filePattern>*.eot</filePattern>
+    </filePatternList>
+  </viewHandler>
+
+  <!-- 
+    This view handler for compiled Java class files requires the JAD decompiler.
+    It works only on Windows and only for Java classes that do not use Java 1.5 or higher version language constructs.
+    See readme.html for more information.
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.JavaClassViewHandler</class>
+    <filePatternList>
+      <filePattern>*.class</filePattern>
+    </filePatternList>
+  </viewHandler>
+  -->
+  
+  <viewHandler>
+    <class>de.webfilesys.viewhandler.JavaClassProcyonViewHandler</class>
+    <filePatternList>
+      <filePattern>*.class</filePattern>
+    </filePatternList>
+  </viewHandler>
+  
+</viewHandlerRegistry>

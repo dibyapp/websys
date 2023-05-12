@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'Icons';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/FontAwesome.otf') format('opentype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-font {
+    font-family: 'Icons';
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a.icon-font {
+	text-decoration: none;
+}
+
+.icon-mail:before {
+	content: '\f0e0';
+}
+
+.icon-tool:before {
+	content: '\f0ad';
+}
+
+.icon-search:before {
+	content: '\f002';
+}
+
+.icon-plus:before {
+	content: '\f0fe';
+}
+
+.icon-minus:before {
+	content: '\f146';
+}
+
+.icon-picture:before {
+	content: '\f03e';
+}
+
+.icon-book:before {
+	content: '\f02d';
+}
+
+.icon-computer:before {
+	content: '\f109';
+}
+
+.icon-archive:before {
+	content: '\f1c6';
+}
+
+.icon-calendar:before {
+	content: '\f073';
+}
+
+.icon-bookmark:before {
+	content: '\f006';
+}
+
+.icon-return:before {
+	content: '\f112';
+}
+
+.icon-admin:before {
+	content: '\f007';
+}
+
+.icon-user:before {
+	content: '\f007';
+}
+
+.icon-share:before {
+	content: '\f1e0';
+}
+
+.icon-chart:before {
+	content: '\f080';
+}
+
+.icon-process:before {
+	content: '\f013';
+}
+
+.icon-console:before {
+	content: '\f109';
+}
+
+.icon-drive:before {
+	content: '\f0c7';
+}
+
+.icon-watch:before {
+	content: '\f06e';
+}
+
+.icon-map-marker:before {
+	content: '\f041';
+}
+
+.icon-globe:before {
+	content: '\f0ac';
+}
+
+.icon-hddrive:before {
+	content: '\f1c0';
+}
+
+.icon-floppy:before {
+	content: '\f0c7';
+}
+
+.icon-folder:before {
+	content: '\f07b';
+}
+
+.icon-folderClosed:before {
+	content: '\f114';
+}
+
+.icon-folderOpen:before {
+	content: '\f115';
+}
+
+.icon-folderOpenFilled:before {
+	content: '\f07c';
+}
+
+.icon-mobilePhone:before {
+	content: '\f10b';
+	font-size: 22px;
+}
+
+.icon-info:before {
+	content: '\f05a';
+}
+
+.icon-pencil:before {
+	content: '\f040';
+}
+
+.icon-arrow-up:before {
+	content: '\f062';
+}
+
+.icon-arrow-down:before {
+	content: '\f063';
+}
+
+.icon-rotate-left:before {
+	content: '\f0e2';
+}
+
+.icon-rotate-right:before {
+	content: '\f01e';
+}
+
+.icon-heart:before {
+	content: '\f08a';
+}
+
+.icon-like:before {
+	content: '\f087';
+}
+
+.icon-globe:before {
+    content: '\f0ac'
+}
+
+.icon-help:before {
+	content: '\f059';
+}
+
+.icon-upload:before {
+	content: '\f093';
+}
+
+.icon-exit:before {
+	content: '\f08b';
+}
+
+.icon-cancel:before {
+	content: '\f057';
+}
+
+.icon-close:before {
+	content: '\f00d';
+}
+
+.icon-edit:before {
+    content: '\f044';
+}
+
+.icon-delete:before {
+	content: '\f014';
+}
+
+.icon-calender:before {
+	content: '\f073';
+}
+
+.icon-menu:before {
+	content: '\f0c9';
+}
+
+.icon-menu-dots:before {
+	content: '\f142';
+}
+
+.icon-smiley:before {
+	content: '\f118';
+}
+
+.icon-page-first:before {
+	content: '\f048';
+}
+
+.icon-page-prev:before {
+	content: '\f04a';
+}
+
+.icon-page-next:before {
+	content: '\f04e';
+}
+
+.icon-page-last:before {
+	content: '\f051';
+}
+
+.icon-harddisk:before {
+	content: '\f0a0';
+}
+
+.icon-sort:before {
+	content: '\f15d';
+}
+
+.icon-list:before {
+	content: '\f03a';
+}
+
+.icon-star:before {
+	content: '\f006';
+}
+
+.icon-copy:before {
+	content: '\f0c5';
+}
+
+.icon-check:before {
+	content: '\f00c';
+}
+
+.icon-stats:before {
+	content: '\f080';
+}
+
+.icon-page-next,
+.icon-page-last {
+    float: right;
+}
+
+a.icon-paging {
+	text-decoration: none;
+}
+
+a.icon-paging:before {
+	color: #ffff80;
+    font-size: 24px;
+}
+
+a.icon-darkgrey:before {
+	color: #404040;
+    font-size: 24px;
+}
+
+.icon-button a {
+	text-decoration: none;
+}
+
+.icon-button {
+    width: 24px;
+    height: 24px;
+    border: 3px ridge;
+	color: #4080c0;
+	border-color: #a0a0a0;
+	padding: 4px 2px 0 2px;
+	background-color: #e0e0e0;
+	cursor: pointer;
+	margin-right: 4px;
+}
+
+.icon-cancel-slideshow:before {
+	color: #a00000;
+	margin: 0 5px;
+	font-size: 22px;
+}
+

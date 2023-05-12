@@ -1,0 +1,215 @@
+body.menubar {
+    background-color: #d0d0ff;
+}
+
+div.msgBox {
+    background-color: ivory;
+    color: #000080;
+}
+ 
+div.uploadStatus {
+    background-color:lavender
+}
+
+/* depreacted - replace with div.headline! */
+th.headline {
+    background-color:#c0c0ff;
+}
+ 
+div.headline {
+    background-color:#c0c0ff;
+}
+ 
+th.datahead {
+    background-color:silver;
+}
+
+input,select,textarea {
+    background-color:#d0d0ff;
+}
+ 
+input.cb {
+    background-color:#e0e0ff;
+    border: none;
+}
+
+input.cb3 {
+    background-color:#b0b0ff;
+    border: none;
+}
+
+input.cb4 {
+    background-color:lavender;
+    border: none;
+}
+
+input.cb5 {
+    background-color:ivory;
+    border: none;
+}
+
+body.menu {
+    background-color:#c0c0e0;
+}
+
+td.menu {
+    background-color:#c0c0e0;
+}
+
+a.menuitem,
+span.menuitem {
+    color: #000080;
+}
+
+a.menuitem:hover,
+span.menuitem:hover {
+    color: #000000;
+}
+
+a.menuitem:hover {
+    color:green;
+}
+
+td.jsmenu {
+    background-color:#c0c0e0;
+}
+
+td.jsmenu:hover {
+    background-color:#d0d0f0;
+}
+
+td.fileListFunct, td.fileListFunctCont {
+    background-color:#c0c0ff;
+}
+
+th.fileListHead {
+    background-color:lavender;
+}
+
+table.fileListButtonCont2 {
+    background-color: #c0c0ff;
+}
+
+div.searchPath
+{
+    background-color: ivory;
+}
+
+span.searchPath
+{
+    background-color: ivory;
+}  
+
+td.tabActive {
+    background-color:#c0c0ff;
+}
+ 
+td.tabAlbum {   
+    background-color:ivory;
+}
+
+div.more {
+    background-color:#ffffff;
+} 
+
+table.dataForm {
+    background-color:ivory;
+}
+
+table.formSection {
+    background-color:ivory;
+}
+
+td.formParm1 {
+    background-color:ivory;
+}
+
+td.formParm2 {
+    background-color:ivory;
+}
+
+td.formButton {
+    background-color:ivory;
+}
+
+input.formParm1 {
+    background-color:ivory;
+}
+
+div.hint {
+    background-color:#b0b0ff;
+}
+
+th.fileList {
+    background-color:lavender;
+}
+
+table.contextMenu th {
+    background-color: silver;
+}
+
+div.contextMenuItem {
+    background-color: #c0c0e0;
+    color: #000080;
+}
+
+div.contextMenuItem:hover {
+    background-color: #d0d0f0;
+    color: #000000;
+}
+
+.icon-button a:before {
+	color: #8080e0;
+}
+
+span.fileAgeHour {
+	background-color: #c0ffff;
+}
+
+span.fileAgeDay {
+	background-color: #ffe080;
+}
+
+span.fileAgeWeek {
+	background-color: #ffe0e0;
+}
+
+span.fileAgeMonth {
+	background-color: #e0ffe0;
+}
+
+span.fileAgeYear {
+	background-color: #e0e0ff;
+}
+
+td.fileListFunctCont a.icon-paging:before,
+td.fileListFunct a.icon-paging:before {
+    color: #404090;
+}
+
+.icon-copyToClip:before {
+    color: #000000;
+}
+
+div.fastpathHeadline span+span {
+    color: navy;
+}
+
+div.fastpathHeadline span:before {
+	color: #a0a0e0;
+}
+
+a.folderTreeIcon span.icon-font:before,
+div.fastpath.last span.icon-font:before,
+div.findFileResult span.icon-font {
+	color: #6060a0;
+}
+
+a.folderTreeIcon span.icon-font.folderCurrent:before {
+	color: #a0a0e0;
+}
+
+body.zipContent span.icon-folderOpen:before,
+div.zipEntry span.icon-folderOpenFilled:before {
+	color: #6060a0;
+}
