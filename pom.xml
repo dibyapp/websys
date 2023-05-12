@@ -7,6 +7,12 @@
 	<version>2.29.0</version>
 	<name>webfilesys Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<repositories>
+		<repository>
+			<id>maven-repository</id>
+			<url>file://${basedir}/maven-repository</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -120,34 +126,6 @@
 			<groupId>org.bitbucket.mstrobel</groupId>
 			<artifactId>procyon-compilertools</artifactId>
 			<version>0.5.36</version>
-		</dependency>
-		<dependency>
-			<groupId>com.ice.tar</groupId>
-			<artifactId>javatar</artifactId>
-			<systemPath>${basedir}/webfilesys/maven-repository/com/ice/tar/javatar/2.3/javatar-2.3.jar</systemPath>
-			<scope>system</scope>
-			<version>2.3</version>
-		</dependency>
-				<dependency>
-			<groupId>com.keypoint</groupId>
-			<artifactId>png-gif</artifactId>
-			<systemPath>${basedir}/webfilesys/maven-repository/com/keypoint/png-gif/1.0/png-gif-1.0.jar</systemPath>
-			<scope>system</scope>
-			<version>1.0</version>
-		</dependency>
-				<dependency>
-			<groupId>com.googlecode</groupId>
-			<artifactId>compress-j2me</artifactId>
-			<systemPath>${basedir}/webfilesys/maven-repository/com/googlecode/compress-j2me/0.3/compress-j2me-0.3.jar</systemPath>
-			<scope>system</scope>
-			<version>2.3</version>
-		</dependency>
-				<dependency>
-			<groupId>mediachest</groupId>
-			<artifactId>mediachest</artifactId>
-			<systemPath>${basedir}/webfilesys/maven-repository/mediachest/mediautil/1.0.0/mediautil-1.0.0.jar</systemPath>
-			<scope>system</scope>
-			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 	<build>
